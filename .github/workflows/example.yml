@@ -1,7 +1,7 @@
 name: The very first workflow
 on: push
 jobs:
-  first_job:
+  ascii_job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout my code
