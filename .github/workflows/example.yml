@@ -10,7 +10,7 @@ jobs:
       - name: List files and also read README.md
         run: |
           echo "Hello world!"  
-          ls -la
+          ls -ltra
           cat README.md
       - name: Generate A beautiful artwork
         run: cowsay -f dragon 'Run for cover! I am a dragon!' >> dragon.txt
