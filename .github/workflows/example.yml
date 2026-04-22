@@ -11,12 +11,6 @@ jobs:
         run: |
           echo "Hello world!"  
           ls -ltra
-          cat README.md
-      - name: Generate A beautiful artwork
-        run: cowsay -f dragon 'Run for cover! I am a dragon!' >> dragon.txt
 
-      # - name: list files
-      #   run: ls
-
-      # - name: Read files
-      #   run: cat README.md
+      - name: Execute shell script
+        run: ./asc-script.sh
