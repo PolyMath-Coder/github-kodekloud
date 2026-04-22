@@ -11,4 +11,6 @@ jobs:
         run: ls -ltra
 
       - name: Executing all my shell script
-        run: ./asc-script.sh
+        run: |
+          chmod +x
+          ./asc-script.sh
