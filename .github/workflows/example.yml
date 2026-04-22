@@ -7,5 +7,8 @@ jobs:
       - name: Checkout my code
         uses: actions/checkout@v6
 
+      - name: List repo files
+        run: ls -ltra
+
       - name: Executing all my shell script
         run: ./asc-script.sh
