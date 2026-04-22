@@ -10,7 +10,7 @@ jobs:
       - name: List repo files
         run: ls -ltra
 
-      - name: Executing all my shell script
+      - name: Executing my shell script
         run: |
           chmod +x ./asc-script.sh
           ./asc-script.sh
