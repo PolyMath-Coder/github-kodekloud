@@ -6,11 +6,17 @@ jobs:
     steps:
       - name: Checkout my code
         uses: actions/checkout@v6
-      - name: talk with today Bruhh
-        run: echo "Hello world!"
 
-      - name: list files
-        run: ls
+      - name: List files and also read README.md
+        run: |
+          echo "Hello world!"  
+          ls -la
+          cat README.md
+      - name: Generate A beautiful artwork
+        run: cowsay -f dragon 'Run for cover! I am a dragon!' >> dragon.txt
 
-      - name: Read files
-        run: cat README.md
+      # - name: list files
+      #   run: ls
+
+      # - name: Read files
+      #   run: cat README.md
