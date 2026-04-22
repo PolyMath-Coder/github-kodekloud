@@ -13,3 +13,4 @@ jobs:
       - name: Executing all my shell script
         run: |
           chmod +x ./asc-script.sh
+          ./asc-script.sh
