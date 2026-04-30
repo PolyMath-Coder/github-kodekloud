@@ -1,9 +1,6 @@
 name: My workflow
 
-on:
-  schedule:
-    - cron: "*/1 * * * *"
-
+on: push
 jobs:
   build_job_1:
     runs-on: ubuntu-latest
